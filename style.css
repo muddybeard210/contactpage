@@ -37,7 +37,6 @@ body {
   padding-top: 10%;
 }
 .projectContainer {
-  height: 400px;
   background-color: grey;
 }
 .aboutStatementContainer {
@@ -59,3 +58,9 @@ body {
   border-radius: 30px;
   padding: 15px;
 }
+
+.projectContent {
+  text-align: center;
+}
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
