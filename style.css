@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.navContainer {
+  position: fixed;
+  right: 0;
+}
+.navContent p {
+  display: inline-block;
+  color: white;
+}
+.headerContent {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/02/a1/1e/02a11ea2c9c21536d0f6a6fee2a47517.jpg");
+  height: 100vh;
+  border-bottom: 5px brown solid;
+  display: flex;
+  justify-content: center;
+}
+.headerLogo {
+  margin-top: 20%;
+  height: 400px;
+}
+.headerButtonLink {
+  position: absolute;
+  bottom: 10%;
+}
+.aboutContainer {
+  width: 100%;
+  background-color: #d8c6b4;
+  text-align: center;
+  padding-bottom: 10%;
+}
+.aboutContainer h1 {
+  margin-top: 0;
+  padding-top: 10%;
+}
+.projectContainer {
+  height: 400px;
+  background-color: grey;
+}
+.aboutStatementContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 75%;
+}
+.aboutDescription {
+  /*float: left;*/
+  width: 500px;
+  height: 100%;
+}
+.glyphicon-menu-down {
+  border: 3px white solid;
+  color: white;
+  /*position: absolute;
+  bottom: 10%;*/
+  top: inherit;
+  border-radius: 30px;
+  padding: 15px;
+}
