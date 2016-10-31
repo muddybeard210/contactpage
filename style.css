@@ -76,14 +76,16 @@ body {
   display: flex;
   flex-direction: row;
   text-align: center;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
   padding-bottom: 30px;
 
 }
 
 .projectCard {
-  padding: 0 10px;
+  border-radius: 10px;
+  margin: 5px;
   height: 100%;
+  width: 300px;
   text-align: center;
   overflow: hidden;
 }
@@ -104,6 +106,20 @@ body {
   height: 400px;
   width: 100%;
 
+}
+.shooters-log-be {
+  background-image: url("/assets/shooters-log-be.png");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 400px;
+  width: 100%;
+
+}
+.shooters-log-be-logo {
+  background-color: #282c34;
+}
+.shooters-log-be-logo img{
+  width: 50%;
 }
 .shooters-logo img {
   width: 50%;
@@ -128,6 +144,11 @@ body {
   height: 0;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+
+.projectDescription p a {
+  color: white;
+
+}
 .fullOpacity {
   opacity: 1;
 }
@@ -144,5 +165,12 @@ body {
     }
     .projectCard {
       margin: 10px 0;
+      width: 100%;
+    }
+    .headerLogo {
+      height: 99vw;
+    }
+    .projectDescription p {
+      font-size: 18px;
     }
 }
