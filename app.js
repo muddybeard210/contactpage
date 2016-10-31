@@ -15,7 +15,11 @@ $(function() {
 
 $('.projectCard').mouseenter(function(){
   $('p', this).css("opacity", "1");
+  $('p', this).css("height", "100%");
+
 });
 $('.projectCard').mouseleave(function(){
   $('p', this).css("opacity", "0");
+  $('p', this).css("height", "0px");
+
 });
