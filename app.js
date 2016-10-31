@@ -13,8 +13,9 @@ $(function() {
   });
 });
 
-$('.grid').masonry({
-  // options
-  itemSelector: '.grid-item',
-  columnWidth: 200
+$('.projectCard').mouseenter(function(){
+  $('p', this).css("opacity", "1");
+});
+$('.projectCard').mouseleave(function(){
+  $('p', this).css("opacity", "0");
 });

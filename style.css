@@ -19,7 +19,7 @@ body {
   justify-content: center;
 }
 .headerLogo {
-  margin-top: 20%;
+  margin-top: 5%;
   height: 400px;
 }
 .headerButtonLink {
@@ -33,6 +33,7 @@ body {
   padding-bottom: 10%;
 }
 .aboutContainer h1 {
+  font-weight: bold;
   margin-top: 0;
   padding-top: 10%;
 }
@@ -46,7 +47,7 @@ body {
 }
 .aboutDescription {
   /*float: left;*/
-  width: 500px;
+  max-width: 500px;
   height: 100%;
 }
 .glyphicon-menu-down {
@@ -57,8 +58,83 @@ body {
   top: inherit;
   border-radius: 30px;
   padding: 15px;
+  transition: all 200ms;
+}
+.glyphicon-menu-down:hover {
+  border-radius: 5px;
+  color: rgb(135, 252, 235);
+  border: 3px rgb(135, 252, 235) solid;
+
+}
+.projectContainer h1 {
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 10%;
+}
+.projectContent {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  /*justify-content: space-between;*/
+  padding-bottom: 30px;
+
 }
 
-.projectContent {
+.projectCard {
+  padding: 0 10px;
+  height: 100%;
   text-align: center;
+  overflow: hidden;
+}
+.gdandbLogo img {
+  width: 100%;
+}
+.gdandbTree {
+  background-image: url("/assets/gdandbTree.png");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 400px;
+  width: 100%;
+}
+.shooters-log {
+  background-image: url("/assets/shooters-login.png");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 400px;
+  width: 100%;
+}
+.shooters-logo img {
+  width: 50%;
+  background-color: blue;
+}
+.projectDescription {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.projectDescription p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+  opacity: 0;
+  transition: all 500ms;
+}
+.projectDescription p:hover {
+  opacity: 1;
+
+}
+.fullOpacity {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .projectContent {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .projectCard {
+      margin: 10px 0;
+    }
 }
