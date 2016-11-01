@@ -21,6 +21,8 @@ body {
 .headerLogo {
   margin-top: 5%;
   height: 400px;
+  border-radius: 100%;
+  box-shadow: 18px 7px 53px 1px black;
 }
 .headerButtonLink {
   position: absolute;
@@ -147,6 +149,11 @@ body {
 
 .projectDescription p a {
   color: white;
+  transition: all 500ms;
+
+}
+.projectDescription p a:hover {
+  color: #d8c6b4;
 
 }
 .fullOpacity {
@@ -156,6 +163,18 @@ body {
   font-size: 50px;
   margin-top: 20px;
   padding: 5px;
+}
+.contactBtnsFA {
+  font-size: 50px;
+  margin-top: 20px;
+  padding: 5px;
+}
+.footerContainer {
+  width: 100%;
+}
+.contactBtns {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 600px) {
