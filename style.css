@@ -77,6 +77,10 @@ body {
   padding-top: 10%;
   /*border-bottom: 2px solid;*/
 }
+hr {
+  width: 401px;
+  color: #333;
+}
 .projectContent {
   display: flex;
   text-align: center;
@@ -84,11 +88,6 @@ body {
   padding-bottom: 30px;
 
 }
-hr {
-  width: 401px;
-  color: #333;
-}
-
 
 .projectCard {
   border-radius: 10px;
@@ -96,8 +95,9 @@ hr {
   height: 100%;
   width: 300px;
   text-align: center;
-  /*overflow: hidden;*/
+  overflow: hidden;
   transition: all 500ms;
+  flex-direction: column;
 }
 .boxShadow {
   box-shadow: 18px 7px 53px 1px black;
@@ -193,14 +193,16 @@ hr {
   display: flex;
   justify-content: space-between;
 }
-
-
 @media only screen and (min-width: 601px) {
+  .projectContent {
+      flex-direction: row;
+      /*justify-content: center;*/
+  }
 }
 
 @media only screen and (max-width: 600px) {
     .projectContent {
-        flex-direction: column;
+        /*flex-direction: column;*/
         justify-content: center;
     }
     /*.projectCard {

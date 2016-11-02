@@ -24,6 +24,6 @@ $('.projectCard').mouseleave(function(){
   $('p', this).css("opacity", "0");
   $('p', this).css("height", "0px");
   $(this).removeClass("boxShadow");
-  $(this).css("margin", "5px");
+  $(this).css("margin-top", "5px");
 
 });
