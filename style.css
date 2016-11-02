@@ -95,6 +95,11 @@ hr {
   width: 300px;
   text-align: center;
   overflow: hidden;
+  transition: all 500ms;
+}
+.boxShadow {
+  box-shadow: 18px 7px 53px 1px black;
+
 }
 .gdandbLogo img {
   width: 100%;

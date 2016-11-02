@@ -16,10 +16,14 @@ $(function() {
 $('.projectCard').mouseenter(function(){
   $('p', this).css("opacity", "1");
   $('p', this).css("height", "100%");
+  $(this).addClass("boxShadow");
+  $(this).css("margin-top", "-10px");
 
 });
 $('.projectCard').mouseleave(function(){
   $('p', this).css("opacity", "0");
   $('p', this).css("height", "0px");
+  $(this).removeClass("boxShadow");
+  $(this).css("margin", "5px");
 
 });
