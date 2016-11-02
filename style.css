@@ -12,12 +12,14 @@ body {
   color: white;
 }
 .headerContent {
+  position: relative;
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/02/a1/1e/02a11ea2c9c21536d0f6a6fee2a47517.jpg");
   height: 100vh;
   border-bottom: 5px brown solid;
   display: flex;
   justify-content: center;
 }
+
 .headerLogo {
   margin-top: 5%;
   height: 400px;
@@ -192,7 +194,7 @@ hr {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
     .projectContent {
         flex-direction: column;
         justify-content: center;
@@ -207,4 +209,4 @@ hr {
     .projectDescription p {
       font-size: 18px;
     }
-}
+}*/
