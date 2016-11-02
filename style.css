@@ -83,7 +83,6 @@ hr {
 }
 .projectContent {
   display: flex;
-  flex-flow: row;
   text-align: center;
   justify-content: space-between;
   padding-bottom: 30px;
@@ -194,12 +193,12 @@ hr {
   justify-content: space-between;
 }
 
-/*@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .projectContent {
         flex-direction: column;
         justify-content: center;
     }
-    .projectCard {
+    /*.projectCard {
       margin: 10px 0;
       width: 100%;
     }
@@ -208,5 +207,5 @@ hr {
     }
     .projectDescription p {
       font-size: 18px;
-    }
-}*/
+    }*/
+}
