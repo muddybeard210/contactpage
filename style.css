@@ -73,10 +73,15 @@ body {
   margin-top: 0;
   text-align: center;
   padding-top: 10%;
+  /*border-bottom: 2px solid;*/
+}
+hr {
+  width: 400px;
+  color: #333;
 }
 .projectContent {
   display: flex;
-  flex-direction: row;
+  flex-flow: row;
   text-align: center;
   justify-content: space-between;
   padding-bottom: 30px;
@@ -160,6 +165,11 @@ body {
   opacity: 1;
 }
 .projectDescriptionFA {
+  font-size: 50px;
+  margin-top: 20px;
+  padding: 5px;
+}
+.contactBtns p {
   font-size: 50px;
   margin-top: 20px;
   padding: 5px;
