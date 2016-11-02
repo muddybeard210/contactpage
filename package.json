@@ -1,0 +1,23 @@
+{
+  "name": "contactpage",
+  "version": "0.1.0",
+  "description": "contact page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muddybeard210/contactpage.git"
+  },
+  "author": "matthewsheridansmith@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muddybeard210/contactpage/issues"
+  },
+  "homepage": "https://github.com/muddybeard210/contactpage#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-request-proxy": "^1.0.10"
+  }
+}
