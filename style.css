@@ -95,7 +95,7 @@ hr {
   height: 100%;
   width: 300px;
   text-align: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
   transition: all 500ms;
   flex-wrap: wrap;
 }
