@@ -34,10 +34,12 @@ body {
 .headerButtonLinkContainer {
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin-top: 100px;
 }
 .headerButtonLink {
-  position: absolute;
-  bottom: 10%;
+  /*position: absolute;
+  bottom: 10%;*/
 }
 .aboutContainer {
   width: 100%;
@@ -66,8 +68,6 @@ body {
 .glyphicon-menu-down {
   border: 3px white solid;
   color: white;
-  /*position: absolute;
-  bottom: 10%;*/
   top: inherit;
   border-radius: 30px;
   padding: 15px;
