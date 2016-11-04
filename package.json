@@ -18,6 +18,7 @@
   "homepage": "https://github.com/muddybeard210/contactpage#readme",
   "dependencies": {
     "express": "^4.13.3",
-    "express-request-proxy": "^1.0.10"
+    "express-request-proxy": "^1.0.10",
+    "wow.js": "^1.2.2"
   }
 }
