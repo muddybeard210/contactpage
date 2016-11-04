@@ -14,7 +14,7 @@ $(function() {
 });
 
 $(window).load(function(){
-  if($(window).width()<900){
+  if($(window).width()<600){
     $(".projectCard p").css("opacity", "1");
     $(".projectCard p").css('height', '100%');
     console.log('monkey')
@@ -22,7 +22,7 @@ $(window).load(function(){
 });
 
 $(window).load(function(){
-  if($(window).width()>900) {
+  if($(window).width()>600) {
     $('.projectCard').mouseenter(function(){
       $('p', this).css("opacity", "1");
       $('p', this).css("height", "100%");
