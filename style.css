@@ -17,15 +17,23 @@ body {
   height: 100vh;
   width: 100vw;
   border-bottom: 5px brown solid;
+  /*display: flex;
+  /*justify-content: center;*/
+}
+.headerLogoContainer {
   display: flex;
   justify-content: center;
 }
-
 .headerLogo {
   margin-top: 5%;
-  height: 42%;
+  height: 50vh;
+  /*width: 10vw;*/
   border-radius: 100%;
   box-shadow: 18px 7px 53px 1px black;
+}
+.headerButtonLinkContainer {
+  display: flex;
+  justify-content: center;
 }
 .headerButtonLink {
   position: absolute;
