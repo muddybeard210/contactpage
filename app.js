@@ -13,19 +13,34 @@ $(function() {
   });
 });
 
-$('.projectCard').mouseenter(function(){
-  $('p', this).css("opacity", "1");
-  $('p', this).css("height", "100%");
-
-  $(this).addClass("boxShadow");
-  $(this).css("margin-top", "-10px");
-
+$(window).load(function(){
+  if($(window).width()<900){
+    $(".projectCard p").css("opacity", "1");
+    $(".projectCard p").css('height', '100%');
+    console.log('monkey')
+  }
 });
-$('.projectCard').mouseleave(function(){
-  $('p', this).css("opacity", "0");
-  $('p', this).css("height", "0px");
 
-  $(this).removeClass("boxShadow");
-  $(this).css("margin-top", "5px");
+$(window).load(function(){
+  if($(window).width()>900) {
+    $('.projectCard').mouseenter(function(){
+      $('p', this).css("opacity", "1");
+      $('p', this).css("height", "100%");
 
-});
+      $(this).addClass("boxShadow");
+      // $(this).css("margin-top", "-10px");
+
+
+    });
+    $('.projectCard').mouseleave(function(){
+      $('p', this).css("opacity", "0");
+      $('p', this).css("height", "0px");
+
+      $(this).removeClass("boxShadow");
+      // $(this).css("margin-top", "5px");
+
+
+    });
+
+  }
+})

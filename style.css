@@ -99,7 +99,6 @@ hr {
 }
 
 .projectCard {
-  border-radius: 10px;
   margin: 5px;
   width: 100%;
   text-align: center;
@@ -213,6 +212,7 @@ hr {
     .projectContent {
         flex-direction: column;
         justify-content: center;
+        width: 80%;
     }
     /*.projectCard {
       margin: 10px 0;
