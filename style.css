@@ -242,6 +242,7 @@ hr {
   }
 }*/
 
+
 @media only screen and (max-width: 600px) {
     .projectContent {
         flex-direction: column;
@@ -249,7 +250,10 @@ hr {
         width: 80%;
     }
     .contactBtnsFA i {
-      font-size: 50px;
+      font-size: 70px;
+    }
+    .contactBtnsContainer {
+      margin-top: 0;
     }
     .bioContainer {
       flex-direction: column;
@@ -259,6 +263,9 @@ hr {
       justify-content: center;
       flex-direction: column;
       text-align: center;
+    }
+    .footerContent p {
+      margin-bottom: 5px;
     }
 
     /*.projectCard {
@@ -271,4 +278,9 @@ hr {
     .projectDescription p {
       font-size: 18px;
     }*/
+}
+@media only screen and (max-width: 330px) {
+  .contactBtnsFA i {
+    font-size: 60px;
+  }
 }
