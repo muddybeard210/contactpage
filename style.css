@@ -254,7 +254,12 @@ hr {
     .bioContainer {
       flex-direction: column;
     }
-
+    .footerContent {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
 
     /*.projectCard {
       margin: 10px 0;
