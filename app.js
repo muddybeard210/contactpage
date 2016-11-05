@@ -20,6 +20,8 @@ $(window).load(function(){
   if($(window).width()<600){
     $(".projectCard p").css("opacity", "1");
     $(".projectCard p").css('height', '100%');
+    $(".projectCard").addClass("boxShadow");
+
     console.log('monkey')
   }
 });
