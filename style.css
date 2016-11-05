@@ -82,7 +82,31 @@ body {
 }
 .bioContainer {
   background-color: #F4EFEF;
+  display: flex;
+  justify-content: center;
 }
+.bioContent {
+  display: flex;
+  justify-content: space-around;
+}
+.bioContent div {
+  margin: 10px;
+}
+.bioImage {
+  display: flex;
+  justify-content: center;
+  /*margin: 0 0 10px 0;*/
+
+}
+
+.bioImage img {
+  height: 400px;
+  /*width: 100%;*/
+}
+.bioDescription {
+  text-align: center;
+}
+
 .projectContainer h1 {
   font-weight: bold;
   margin-top: 0;
@@ -227,6 +251,11 @@ hr {
     .contactBtnsFA i {
       font-size: 50px;
     }
+    .bioContainer {
+      flex-direction: column;
+    }
+
+
     /*.projectCard {
       margin: 10px 0;
       width: 100%;
