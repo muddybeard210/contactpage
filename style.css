@@ -80,6 +80,9 @@ body {
   border: 3px rgb(135, 252, 235) solid;
 
 }
+.bioContainer {
+  background-color: #F4EFEF;
+}
 .projectContainer h1 {
   font-weight: bold;
   margin-top: 0;
