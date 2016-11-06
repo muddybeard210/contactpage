@@ -249,6 +249,7 @@ hr {
 .contactBtns {
   display: flex;
   justify-content: space-between;
+  color
 }
 .contactBtnsContainer {
   margin-top: 20px;
@@ -304,6 +305,8 @@ hr {
     }
     .bioImage img {
       max-height: 320px;
+      max-width: 320px;
+
     }
     .footerContent {
       display: flex;
@@ -336,5 +339,7 @@ hr {
   }
   .bioImage img {
     max-height: 250px;
+    max-width: 250px;
+
   }
 }
