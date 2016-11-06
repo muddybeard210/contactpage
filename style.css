@@ -88,12 +88,10 @@ body {
 }
 .bioContent {
   display: flex;
-  margin-top: 20%;
-  margin-bottom: 20%;
 }
 
 .bioContent div {
-  margin: 10px 0 10px 0;
+  margin-top: 5%;
 }
 .bioImage {
   display: flex;
@@ -111,6 +109,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .projectContainer h1 {
@@ -239,6 +238,20 @@ hr {
 .contactBtnsContainer {
   margin-top: 20px;
 }
+.testimonialContainer {
+  background-color: #d8c6b4;
+  width: 100%;
+}
+.testimonialContent {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.testimonialContent p {
+}
 .wow {
   animation-duration: 1s;
 }
@@ -285,6 +298,10 @@ hr {
     }
     .footerContent p {
       margin-bottom: 5px;
+    }
+    .testimonialContent {
+      margin-left: 0;
+      margin-right: 0;
     }
 
     /*.projectCard {
