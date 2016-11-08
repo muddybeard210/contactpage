@@ -81,6 +81,11 @@ body {
   100% {border-radius: 30px}
 
 }
+@keyframes flash {
+  50% {border: 3px rgb(61, 112, 105) solid;}
+  100% {border: 3px rgb(135, 252, 235) solid;}
+}
+
 .glyphicon-menu-down {
   border: 3px white solid;
   color: white;
@@ -93,6 +98,9 @@ body {
   border-radius: 5px;
   color: rgb(135, 252, 235);
   border: 3px rgb(135, 252, 235) solid;
+  animation-name: flash;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
 
 
 }
